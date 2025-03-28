@@ -9,6 +9,8 @@ class Button extends Model
 {
     use HasFactory;
 
+    protected $table = 'buttons';
+
     protected $fillable = ['title', 'link', 'color'];
 
 }
