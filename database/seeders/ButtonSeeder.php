@@ -14,7 +14,7 @@ class ButtonSeeder extends Seeder
     public function run(): void
     {
         for ($i = 1; $i <= 9; $i++) {
-            Button::create(['title' => 'Button ' . $i]);
+            Button::create(['title' => 'Button ' . $i, 'color' => '#000000']);
         }
     }
 }
